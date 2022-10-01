@@ -1,0 +1,132 @@
+.main{
+    height: 650px;
+width: 450px;
+margin: auto;
+border-radius: 20px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+}
+.head img{
+    height: 220px;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+ body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+   
+ }
+ .head h1{
+  
+font-family: 'Red Hat Display', sans-serif;
+font-size: 28px;
+font-weight: 900;
+line-height: 37px;
+text-align: center;
+color: rgba(31, 46, 85, 1);
+
+ }
+ .text p{
+    height: 78px;
+width: 354px;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+color: rgba(113, 127, 166, 1);
+margin-left: 48px;
+margin-top: -20px;
+ }
+ .music{
+    height: 98px;
+width: 354px;
+border-radius: 11px;
+background-color:rgba(247, 249, 255, 1);
+display: flex;
+text-align: center;
+justify-content: space-around;
+
+margin-left: 48px;
+ }
+ .musichead{
+    height: 21px;
+width: 117.19047546386719px;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 16px;
+font-weight: 900;
+line-height: 21px;
+color: rgba(31, 46, 85, 1);
+margin-top: 20px;
+
+
+ }
+ .music img{
+    height: 48px;
+width: 48px;
+margin-top: 22px;
+ }
+ .price{
+    height: 21px;
+width: 92px;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 21px;
+color:rgba(113, 127, 166, 1);
+margin-top: -10px;
+ }
+ .musicio{
+    display: block;
+ }
+ .music a{
+    margin-top: 35px;
+    height: 19px;
+width: 52px;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+color:rgba(56, 42, 225, 1);
+
+ }
+ .blue{
+    height: 50px;
+width: 354px;
+border-radius: 11px;
+border: none;
+margin-left: 48px;
+background-color: rgba(56, 42, 225, 1);
+color: white;
+
+ }
+ .cancel{
+    height: 20px;
+width: 120px;
+font-family:'Red Hat Display', sans-serif;
+font-size: 15px;
+font-weight: 900;
+line-height: 20px;
+color:  rgba(113, 127, 166, 1);
+background-color: white;
+border:none;
+margin-left: 160px;
+
+ }
+.music a:hover{
+    text-decoration: none;
+    color:  rgba(118, 108, 241, 1);
+    
+}
+.blue:hover{
+background-color:rgba(118, 108, 241, 1);
+
+}
+.cancel:hover{
+    color: rgba(31, 46, 85, 1);
+
+}
+
